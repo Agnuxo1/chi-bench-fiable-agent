@@ -1,0 +1,4 @@
+extends: default.yaml
+profile: sonnet
+model:
+  agent: sonnet

@@ -1,0 +1,4 @@
+# E3: E2 + contract checklist (no LLM critic).
+extends: default.yaml
+profile: e3_checklist
+critic: {enabled: false}

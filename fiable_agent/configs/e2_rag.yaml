@@ -1,0 +1,5 @@
+# E2: E1 + Handbook RAG.
+extends: default.yaml
+profile: e2_rag
+checklist: {enabled: false, enforce_finish_gate: false}
+critic: {enabled: false}
