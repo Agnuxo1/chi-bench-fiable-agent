@@ -1,0 +1,6 @@
+id,date,hypothesis,configuration,commit,metric,decision
+T0,2026-10-28,fiable-cc hooks install and behave as designed on Linux,clean install on chi-bench 7998d113 + piped hook calls,47fcef4,71/71 tests; block exit=2; 10/10 events under concurrency,accepted
+C0,,official claude-code control,abl3_c0_official_{pa,um}_x3,,pending,pending
+C1,,+plan improves mean reward,abl3_c1_plan_{pa,um}_x3,,pending,pending
+C2,,+checklist improves mean reward and pass^3,abl3_c2_checklist_{pa,um}_x3,,pending,pending
+C3,,+critic improves pass^3,abl3_c3_critic_{pa,um}_x3,,pending,pending
