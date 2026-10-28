@@ -1,0 +1,6 @@
+fiable-agent
+Copyright 2026 Francisco Angulo de Lafuente
+
+This product is designed to run inside chi-Bench (https://github.com/actava-ai/chi-bench),
+Copyright 2026 actAVA.ai and the chi-Bench authors, licensed under the Apache License 2.0.
+harness/fiable_cc_harness.py subclasses the ClaudeCode harness of Harbor as shipped with chi-Bench.

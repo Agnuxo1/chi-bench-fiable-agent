@@ -1,0 +1,6 @@
+# E1: plain ReAct over MCP (no RAG, no checklist, no critic).
+extends: default.yaml
+profile: e1_baseline
+rag: {enabled: false, backend: "null"}
+checklist: {enabled: false, enforce_finish_gate: false}
+critic: {enabled: false}

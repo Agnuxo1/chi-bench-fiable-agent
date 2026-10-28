@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "fiable-agent: Reliability by Construction for Long-Horizon Healthcare Agents on chi-Bench"
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: "Francisco"
+version: 0.2.0
+date-released: 2026-10-28
+license: Apache-2.0
+repository-code: "https://github.com/Agnuxo1/chi-bench-fiable-agent"

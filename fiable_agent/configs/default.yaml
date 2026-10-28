@@ -1,0 +1,33 @@
+# Default profile = candidate configuration to freeze (E6).
+# Credentials: ONLY via the ANTHROPIC_API_KEY environment variable. Never in this file.
+profile: default
+model:
+  agent: sonnet            # alias -> anthropic/claude-sonnet-5 (see config.MODEL_ALIASES)
+  critic: null             # null = same model as the agent (cost consistent with aggregator.py)
+  max_output_tokens: 8192
+  temperature: null
+  extra_request_params: {}
+rag:
+  enabled: true
+  backend: bm25            # bm25 | faiss | null
+  handbook_dir: /workspace/skills/managed-care-operations-handbook
+  top_k: 4
+  chunk_chars: 1800
+  inject_on_start: true
+  max_inject_chars: 6000
+checklist:
+  enabled: true
+  enforce_finish_gate: true
+  max_finish_nudges: 3
+critic:
+  enabled: true
+  judges: [contract, grounding, policy]
+  mode: llm
+  max_blocks_per_action: 2
+  policy_max_tokens: 700
+loop:
+  max_turns: 80
+  max_tool_result_chars: 40000
+  wall_clock_budget_s: 1500     # < 900 s * timeout_multiplier 2.0 from the submission YAML
+  prompt_caching: true
+prices_file: null

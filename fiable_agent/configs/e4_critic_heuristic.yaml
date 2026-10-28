@@ -1,0 +1,4 @@
+# E4b: critic without LLM calls (heuristic policy judge) - lower cost / fewer calls.
+extends: default.yaml
+profile: e4_critic_heuristic
+critic: {mode: heuristic}

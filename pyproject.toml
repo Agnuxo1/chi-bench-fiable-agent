@@ -1,0 +1,26 @@
+[project]
+name = "fiable-agent"
+version = "0.2.0"
+description = "'Reliability by construction' agent for chi-Bench (IEEE Big Data Cup 2026)"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+authors = [{name = "Francisco Angulo de Lafuente"}]
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+runtime = ["anthropic>=0.101.0", "mcp>=1.0.0"]   # already present in the chi-bench:agent image
+faiss = ["faiss-cpu>=1.8", "numpy>=1.26"]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["fiable_agent*"]
+
+[tool.setuptools.package-data]
+fiable_agent = ["configs/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

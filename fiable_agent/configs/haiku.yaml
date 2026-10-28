@@ -1,0 +1,4 @@
+extends: default.yaml
+profile: haiku
+model:
+  agent: haiku             # anthropic/claude-haiku-4-5
