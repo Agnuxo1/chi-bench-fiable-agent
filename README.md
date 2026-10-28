@@ -83,6 +83,15 @@ reliability metric. The animation below is an analytic illustration of that effe
 
 ## Results
 
+**Execution status, 28 October 2026.** The authorised budget for this audit is
+**EUR 0**. No paid Anthropic agent, judge or patient-simulator calls are
+authorised, and none were initiated by this audit. Handbook access and the
+official runtime must also be verified before an official run. The three
+interventions C1–C3 below remain prospective experiments: offline tests verify
+software behaviour, but do not demonstrate improved pass@1 or pass³.
+The deterministic checklist adds no model calls of its own; running the
+complete official agent and evaluator can still incur charges.
+
 Evaluation follows the pre-registered protocol in [docs/EVALUATION_PROTOCOL.md](docs/EVALUATION_PROTOCOL.md):
 official control (stock Claude Code harness) versus three cumulative arms (`plan`, `checklist`, `critic`), same
 model (`anthropic/claude-sonnet-5`), same per-task limits, three attempts per task, official verifier
