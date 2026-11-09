@@ -1,3 +1,15 @@
+> **Competition status — 9 November 2026**
+>
+> The organizers [canceled the Kaggle CHI-Bench competition on 2 November](https://www.kaggle.com/competitions/chi-bench/discussion/754840). They stated that no further competition submissions or evaluations would take place, previously submitted entries would not be evaluated, and no competition prizes would be awarded. No additional competition materials are needed.
+>
+> The existing [28 October writeup](https://www.kaggle.com/competitions/chi-bench/writeups/fiable-agent-reliability-by-construction-for-be) remains an archived submission. Kaggle's generic judging banner does not override the cancellation. The historical software-test count below is not a benchmark score; this project has no verified competition evaluation or prize.
+>
+> In the same discussion, the host said on 5 November that results could still be submitted to the separate public benchmark leaderboard, with review when available. That statement does not reopen the competition or grant access to, or redistribution rights for, the gated Handbook. Any future research would require its own access, license and evaluation checks.
+>
+> The original documentation, figures and credits are preserved below as a historical record.
+
+---
+
 <div align="center">
 
 # fiable-agent
