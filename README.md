@@ -30,6 +30,10 @@
 
 ---
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Deterministic contract checks, an evidence ledger and a closure gate target avoidable healthcare-administration workflow slips before actions are taken. The <a href="#how-the-guard-works">guard design</a> adds no model calls in its default arms and returns actionable reasons for blocked steps, offering a lightweight alternative to repeated model judging. Reliability gains remain prospective: software tests do not establish benchmark performance, and the documented competition was cancelled.</sub>
+<!-- impact-note:end -->
+
 ## Overview
 
 **fiable-agent** is our entry to the [IEEE Big Data Cup 2026 — Challenge 07: χ-Bench](https://www.kaggle.com/competitions/chi-bench).
